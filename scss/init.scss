@@ -1,0 +1,92 @@
+// Grid
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$total-columns: 12;
+$row-width: 1170px;
+$column-gutter: 30px;
+
+// Global
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$primary-color: #d83454;
+$secondary-color: #fff;
+$body-bg: #f1f2f2;
+$body-font-color: #414042;
+$body-font-size: 14px;
+$body-line-height: 23px;
+$body-font-weight: normal;
+$body-font-family: 'Museo Sans', sans-serif;
+$base-font-family: 'Museo', sans-serif;
+
+/*$color-gray: #8c93a5;*/
+
+$border-box: border-box;
+$border-radius: 0;
+
+// Typography
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$headings-font-family: $body-font-family;
+$headings-font-weight: 300;
+$headings-font-style: normal;
+$headings-font-color: $body-font-color;
+$headings-line-height: 1.1;
+$headings-top-margin: 0;
+$headings-bottom-margin: 25px;
+$headings-text-rendering: optimizeLegibility;
+
+$font-size-h1: 60px;
+$font-size-h2: 28px;
+$font-size-h3: 20px;
+$font-size-h4: 17px;
+$font-size-h5: 16px;
+$font-size-h6: 14px;
+$font-size-small-h1: 50px;
+
+// We use these to style paragraphs
+$paragraph-font-family: $body-font-family;
+$paragraph-font-weight: 300;
+$paragraph-font-size: 20px;
+$paragraph-font-color: $body-font-color;
+$paragraph-line-height: normal;
+$paragraph-margin-bottom: 20px;
+$paragraph-text-rendering: optimizeLegibility;
+
+// We use these to style anchors
+$anchor-text-decoration: none;
+$anchor-font-color: $primary-color;
+$anchor-font-color-hover: $body-font-color;
+
+// Media Query
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$screen: "only screen";
+$xs-only: "only screen and (max-width: 767px)";
+$sm-up: "#{$screen} and (min-width: 768px)";
+$sm-only: "#{$screen} and (min-width: 768px) and (max-width: 991px)";
+$md-up: "#{$screen} and (min-width: 992px)";
+$md-only: "#{$screen} and (min-width: 992px) and (max-width: 1199px)";
+$lg-up: "#{$screen} and (min-width: 1200px)";
+$lg-only: "#{$screen} and (min-width: 1200px) and (max-width: 1679px)";
+$xl-up: "#{$screen} and (min-width: 1680px)";
+$xl-only: "#{$screen} and (min-width: 1680px) and (max-width: 99999px)";
+
+// Forms variables
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+$form-item-margin: 20px;
+$input-font-family: $body-font-family;
+$input-font-color: $body-font-color;
+$input-font-size: 20px;
+$input-font-weight: 300;
+$input-bg-color: #fbfbfb;
+$input-focus-bg-color: #fbfbfb;
+$input-border-width: 2px;
+$input-border-style: solid;
+$input-border-color: #cdcdcd;
+$input-focus-border-color: $primary-color;
+$input-border-radius: 5px;
+$input-box-shadow: 0 0 5px $primary-color;
+$input-include-glowing-effect: false;
+$input-height: 55px;
+$input-line-height: 25px;
+$input-padding: 13px 18px;
+$input-margin: 0;
+$input-disabled-bg: #f9f9f9;
+$input-disabled-cursor: default;
+$select-padding: 0 26px 0 4px;
